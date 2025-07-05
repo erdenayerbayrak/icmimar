@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Merve Çetinkaya | İç Mimarlık Ofisi</title>
-    <meta name="description" content="Merve Çetinkaya İç Mimarlık Ofisi - Özel tasarım konseptleri, lüks mekanlar ve fonksiyonel iç mekan çözümleri">
+    <title>İÇ MİMARLIK | İç Mimarlık Ofisi</title>
+    <meta name="description" content="İÇ MİMARLIK - Özel tasarım konseptleri, lüks mekanlar ve fonksiyonel iç mekan çözümleri">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -19,7 +19,7 @@
     <header id="main-header">
         <div class="container">
             <a href="#" class="logo">
-                Merve<span>Çetinkaya</span>
+                İÇ<span>MİMARLIK</span>
             </a>
             <nav>
                 <ul id="nav-menu">
@@ -42,7 +42,7 @@
         <div class="container">
             <div class="hero-content animate">
                 <h1><strong>Lüks</strong> ve <strong>Fonksiyonel</strong> Mekanlar Tasarlıyoruz</h1>
-                <p class="delay-1">Merve Çetinkaya İç Mimarlık Ofisi olarak, her mekana özel tasarım konseptleriyle hayallerinizdeki yaşam alanlarını oluşturuyoruz.</p>
+                <p class="delay-1">İÇ MİMARLIK olarak, her mekana özel tasarım konseptleriyle hayallerinizdeki yaşam alanlarını oluşturuyoruz.</p>
                 <div class="hero-buttons delay-2">
                     <a href="#projects" class="btn">Projelerimiz</a>
                     <a href="#contact" class="btn btn-outline">Randevu Al</a>
@@ -56,14 +56,14 @@
         <div class="container">
             <div class="about-content">
                 <div class="about-text animate">
-                    <h2 class="section-title">Hakkımda</h2>
-                    <p>Mimar Sinan Güzel Sanatlar Üniversitesi İç Mimarlık bölümünden mezun olduktan sonra, 10 yılı aşkın süredir lüks konut, otel ve ticari mekanlarda iç mimari projeler yürütüyorum.</p>
-                    <p>Tasarım anlayışım, mekanın ruhunu yansıtan ve kullanıcı ihtiyaçlarına tam olarak cevap veren çözümler üretmek üzerine kurulu. Her projeyi bir sanat eseri olarak görüyor, detaylara verdiğim önemle fark yaratıyorum.</p>
-                    <p>Müşterilerimle kurduğum güçlü iletişim ve takım çalışması sayesinde, hayallerindeki mekanları en ince ayrıntısına kadar tasarlıyoruz.</p>
+                    <h2 class="section-title">Hakkımızda</h2>
+                    <p>10 yılı aşkın süredir lüks konut, otel ve ticari mekanlarda iç mimari projeler yürütüyoruz.</p>
+                    <p>Tasarım anlayışımız, mekanın ruhunu yansıtan ve kullanıcı ihtiyaçlarına tam olarak cevap veren çözümler üretmek üzerine kurulu. Her projeyi bir sanat eseri olarak görüyor, detaylara verdiğimiz önemle fark yaratıyoruz.</p>
+                    <p>Müşterilerimizle kurduğumuz güçlü iletişim ve takım çalışması sayesinde, hayallerindeki mekanları en ince ayrıntısına kadar tasarlıyoruz.</p>
                     <a href="#contact" class="btn">İletişime Geçin</a>
                 </div>
                 <div class="about-image delay-1">
-                    <img src="https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Merve Çetinkaya" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="İÇ MİMARLIK" loading="lazy">
                     <div class="experience-box">
                         <h3>10+</h3>
                         <p>Yıllık Deneyim</p>
@@ -78,16 +78,16 @@
         <div class="container">
             <h2 class="section-title animate">Hizmetlerimiz</h2>
             <div class="services-grid">
-                <div class="service-card animate delay-1">
+                <div class="service-card animate delay-1" onclick="openModal('konut')">
                     <div class="service-image">
-                        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Konut Tasarımı" loading="lazy">
+                        <img src="https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Konut Tasarımı" loading="lazy">
                     </div>
                     <div class="service-info">
                         <h3>Konut Tasarımı</h3>
                         <p>Hayallerinizdeki yaşam alanını yaratıyoruz. Kişiye özel villa, rezidans ve daire projelerinde estetik ve fonksiyonelliği bir araya getiriyoruz.</p>
                     </div>
                 </div>
-                <div class="service-card animate delay-1">
+                <div class="service-card animate delay-1" onclick="openModal('ticari')">
                     <div class="service-image">
                         <img src="https://images.unsplash.com/photo-1565538810643-b5bdb714032a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Ticari Mekanlar" loading="lazy">
                     </div>
@@ -96,18 +96,18 @@
                         <p>Marka kimliğinizi yansıtan, müşterilerinizi etkileyen ve çalışan verimliliğini artıran ofis, mağaza ve restoranlar tasarlıyoruz.</p>
                     </div>
                 </div>
-                <div class="service-card animate delay-2">
+                <div class="service-card animate delay-2" onclick="openModal('mobilya')">
                     <div class="service-image">
-                        <img src="https://images.unsplash.com/photo-1600210492493-094693ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Mobilya Tasarımı" loading="lazy">
+                        <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Özgün Mobilya Tasarımı" loading="lazy">
                     </div>
                     <div class="service-info">
                         <h3>Özgün Mobilya Tasarımı</h3>
                         <p>Mekanınıza ruh katacak, sadece size özel, el işçiliği ve kaliteli malzemelerle üretilmiş mobilyalar tasarlayıp üretiyoruz.</p>
                     </div>
                 </div>
-                <div class="service-card animate delay-2">
+                <div class="service-card animate delay-2" onclick="openModal('3d')">
                     <div class="service-image">
-                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="3D Modelleme" loading="lazy">
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="3D Görselleştirme" loading="lazy">
                     </div>
                     <div class="service-info">
                         <h3>3D Görselleştirme</h3>
@@ -160,14 +160,14 @@
                         <p>Akıllı çözümler ve gömme dolaplarla ferah bir alan yaratılan, modern ve işlevsel şehir dairesi.</p>
                     </div>
                 </div>
-                 <div class="portfolio-item" data-category="ofis">
-                    <img src="https://images.unsplash.com/photo-1573496773905-f5b17e76b254?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Ofis Projesi 2" loading="lazy">
+                <div class="portfolio-item" data-category="ofis">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Ofis Projesi 2" loading="lazy">
                     <div class="portfolio-overlay">
                         <h3>Panoramik Manzaralı Açık Ofis</h3>
                         <p>Şehir manzarasına hakim, çalışan motivasyonunu artırmayı hedefleyen ferah ve modern açık ofis.</p>
                     </div>
                 </div>
-                 <div class="portfolio-item" data-category="restoran">
+                <div class="portfolio-item" data-category="restoran">
                     <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Restoran Projesi 2" loading="lazy">
                     <div class="portfolio-overlay">
                         <h3>Fine Dining Restoran</h3>
@@ -186,7 +186,7 @@
                 <div class="testimonial-slider">
                     <div class="testimonial-slide">
                         <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Müşteri 1" loading="lazy">
-                        <p>"Merve Hanım ve ekibi, evimizi baştan yarattı. Sürecin her anında profesyonel ve yaratıcı yaklaşımlarıyla hayallerimizin ötesinde bir iş çıkardılar. Kendilerine minnettarız."</p>
+                        <p>"İÇ MİMARLIK ekibi, evimizi baştan yarattı. Sürecin her anında profesyonel ve yaratıcı yaklaşımlarıyla hayallerimizin ötesinde bir iş çıkardılar. Kendilerine minnettarız."</p>
                         <div class="author">
                             <h3>Ahmet & Burcu Yılmaz</h3>
                             <p>Villa Projesi, İstanbul</p>
@@ -194,7 +194,7 @@
                     </div>
                     <div class="testimonial-slide">
                         <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Müşteri 2" loading="lazy">
-                        <p>"Yeni ofisimizin tasarımında Merve Çetinkaya ile çalıştık. Hem estetik hem de fonksiyonel olarak harika bir iş çıkardılar. Çalışanlarımızın motivasyonu arttı. Teşekkürler!"</p>
+                        <p>"Yeni ofisimizin tasarımında İÇ MİMARLIK ile çalıştık. Hem estetik hem de fonksiyonel olarak harika bir iş çıkardılar. Çalışanlarımızın motivasyonu arttı. Teşekkürler!"</p>
                         <div class="author">
                             <h3>Ayşe Demir</h3>
                             <p>Teknoloji Ofisi, Ankara</p>
@@ -202,7 +202,7 @@
                     </div>
                     <div class="testimonial-slide">
                         <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Müşteri 3" loading="lazy">
-                        <p>"Restoranımızın konseptini oluştururken Merve Hanım'ın vizyonundan çok faydalandık. Müşterilerimizden mekanın atmosferiyle ilgili sürekli olumlu geri dönüşler alıyoruz."</p>
+                        <p>"Restoranımızın konseptini oluştururken İÇ MİMARLIK'ın vizyonundan çok faydalandık. Müşterilerimizden mekanın atmosferiyle ilgili sürekli olumlu geri dönüşler alıyoruz."</p>
                         <div class="author">
                             <h3>Mehmet Kaya</h3>
                             <p>Restoran Sahibi, İzmir</p>
@@ -241,14 +241,14 @@
                             <i class="fas fa-envelope"></i>
                             <div>
                                 <h4>E-posta</h4>
-                                <p>info@mercecetinkaya.com</p>
+                                <p>info@icmimarlik.com</p>
                             </div>
                         </div>
                         <div class="contact-detail">
                             <i class="fas fa-clock"></i>
                             <div>
                                 <h4>Çalışma Saatleri</h4>
-                                <p>Pazartesi - Cuma: 09:00 - 18:00<br>Cumartesi: 10:00 - 15:00</p>
+                                <p>Pazartesi - Cuma: 09:00 - 18:00</p>
                             </div>
                         </div>
                     </div>
@@ -278,7 +278,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <h3>Merve Çetinkaya</h3>
+                    <h3>İÇ MİMARLIK</h3>
                     <p>Lüks ve fonksiyonel mekanlar tasarlıyoruz. Her projeye özel çözümlerimizle hayallerinizdeki yaşam alanlarını oluşturuyoruz.</p>
                     <div class="social-media">
                         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -298,9 +298,90 @@
                     </ul>
                 </div>
             </div>
-            <p>&copy; 2024 Merve Çetinkaya İç Mimarlık. Tüm hakları saklıdır.</p>
+            <p>&copy; 2024 İÇ MİMARLIK İç Mimarlık. Tüm hakları saklıdır.</p>
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <!-- Konut Modal -->
+                <div id="konut" class="modal-service">
+                    <h2>Konut Tasarımı</h2>
+                    <div class="modal-gallery">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Konut 1">
+                        <img src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Konut 2">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Konut 3">
+                    </div>
+                    <div class="modal-text">
+                        <h3>Özellikler</h3>
+                        <ul>
+                            <li>Kişiye özel tasarım konseptleri</li>
+                            <li>Fonksiyonel alan kullanımı</li>
+                            <li>Lüks ve konforlu yaşam alanları</li>
+                            <li>Modern ve zamansız tasarımlar</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Ticari Modal -->
+                <div id="ticari" class="modal-service">
+                    <h2>Ticari Mekan Tasarımı</h2>
+                    <div class="modal-gallery">
+                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Ticari 1">
+                        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Ticari 2">
+                        <img src="https://images.unsplash.com/photo-1606744824163-985d376605aa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Ticari 3">
+                    </div>
+                    <div class="modal-text">
+                        <h3>Özellikler</h3>
+                        <ul>
+                            <li>Marka kimliğine uygun tasarımlar</li>
+                            <li>Verimli çalışma alanları</li>
+                            <li>Etkileyici müşteri deneyimi</li>
+                            <li>Sürdürülebilir çözümler</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Mobilya Modal -->
+                <div id="mobilya" class="modal-service">
+                    <h2>Özgün Mobilya Tasarımı</h2>
+                    <div class="modal-gallery">
+                        <img src="https://images.unsplash.com/photo-1538688423619-a81d3f23454b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Mobilya 1">
+                        <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Mobilya 2">
+                        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Mobilya 3">
+                    </div>
+                    <div class="modal-text">
+                        <h3>Özellikler</h3>
+                        <ul>
+                            <li>Özel tasarım mobilyalar</li>
+                            <li>Kaliteli malzeme seçimi</li>
+                            <li>Uzman işçilik</li>
+                            <li>Fonksiyonel çözümler</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 3D Modal -->
+                <div id="3d" class="modal-service">
+                    <h2>3D Görselleştirme</h2>
+                    <div class="modal-gallery">
+                        <img src="https://images.unsplash.com/photo-1545065695-64b67d551e68?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="3D 1">
+                        <img src="https://images.unsplash.com/photo-1534349762230-e0cadf78f5da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="3D 2">
+                        <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="3D 3">
+                    </div>
+                    <div class="modal-text">
+                        <h3>Özellikler</h3>
+                        <ul>
+                            <li>Fotorealistik görselleştirme</li>
+                            <li>360° sanal tur</li>
+                            <li>Detaylı malzeme gösterimi</li>
+                            <li>Gerçekçi ışık simülasyonu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script>
         // Smooth scrolling
@@ -408,6 +489,32 @@
 
         const elementsToAnimate = document.querySelectorAll('.animate');
         elementsToAnimate.forEach(el => observer.observe(el));
+
+        // Modal işlevselliği
+        const modal = document.getElementById('serviceModal');
+        const modalServices = document.querySelectorAll('.modal-service');
+        const closeBtn = document.querySelector('.close-modal');
+
+        function openModal(serviceId) {
+            modal.style.display = 'block';
+            modalServices.forEach(service => {
+                service.style.display = 'none';
+            });
+            document.getElementById(serviceId).style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+
+        closeBtn.onclick = function() {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        }
     </script>
 
 </body>
